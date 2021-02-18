@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xổ số sinh viên</title>
+    <!-- <link rel="shortcut icon" href="logo/sv_favicon.png"> -->
+    <!-- <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <script src="wheelSpin/Winwheel.js"></script>
+    <script src="wheelSpin/TweenMax.min.js"></script>
+    <script src="sweetalert2@10.js"></script>
+</head>
+<body>
+<div  class="container-fluid">
+    <!-- <audio controls  autoplay loop hidden >
+            <source src="audio/xs.mp3" type="audio/mpeg">
+        </audio> -->
+    <!--===== Header logo =====-->
+    <div class="container">
+        <div class="row header">
+            <div class="logo-left">
+                <img class="img-logo" src="img/logoT.jpg" alt="">
+            </div>
+            <div class="title-header ml-5 mt-4">
+                <div class="title">
+                    <p class="title-top"><b>TRƯỜNG CAO ĐẲNG CÔNG NGHIỆP HUẾ</b></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--=============================================================-->
+
+    <div class="container-fluid content text-center">
+        <div class="content-title">
+            <p class="">Xổ Số Vui Xuân</p>
+            <p class="prize">Giải Ba</p>
+        </div>
+        <div class="btn-xs col-10 mx-auto text-center"> 
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+                Quay số
+            </button>
+            <div class="modal fade" id="myModal" tabindex="-1" aria-labelledby="myModalLabel"
+            aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-body">
+                            <canvas id='myCanvas' width='990' height='490'>
+                                Canvas not supported, use another browser.
+                            </canvas>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" onClick="theWheel.startAnimation();"  class="btn btn-primary">Bắt đầu quay</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div id="result" class="text-center"></div>
+            </div>
+        </div>
+    </div>
+    <div class="row footer">
+        <div class="col-12">
+            <p style="margin-top: -1%">Copyright 2020 by HUEIC-IT </p>
+            <p>Tp.Huế - 2020</p>
+        </div>
+        
+    </div>
+</div>
+
+
+<script src="bootstrap/js/jquery-3.5.1.slim.min.js">
+</script>
+<script src="bootstrap/js/popper.min.js">
+</script>
+<script src="bootstrap/js/bootstrap.min.js">
+</script>
+<script src="actionjs/main.js"></script>
+</body>
+</html>

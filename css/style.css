@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Times, serif;
+   
+}
+
+body, html{
+    background-image: url('/img/bgr.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.img-logo{
+    border-radius: 50%;
+    width: 150px;
+}
+
+.title{
+    color: rgb(9 70 134);
+    font-size: 250%;
+}
+
+.title-mid{
+    margin-top: -2% ;
+    font-size: 120%;
+}
+
+.title-footer{
+    margin-top: -3%;
+}
+.content-title p{
+    color: red;
+    font-size: 450%;
+    font-family: 'Lobster', cursive;
+}
+
+.result {
+    font-size: 550%;
+}
+
+.footer{
+    width: 100%;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+}
+
+.modal-content{
+    background-color: rgba(59, 112, 158, 0) !important;
+    border-width: 0px;
+    border-color: rgba(221, 221, 221, 0) !important;
+}
+
+.modal-footer{
+    border-color: rgba(255, 255, 255, 0) !important;
+}
+
+.modal{
+    margin-top: 10%;
+}
+
+.prize{
+    margin-top: -4%;
+    color: rgb(109, 16, 16) !important;
+}
+
+.logo-d{
+    width: 150px;
+}
+
+.header{
+    padding-top: 6%;
+    
+}
+.logo-right{
+    padding-left: 3%;
+}
